@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+
+    <style>
+      body {
+        margin: 0;
+      }
+      /* CSS im <style> Bereich in deinem HTML-Dokument oder in einer separaten CSS-Datei */
+#game {
+  position: absolute;
+  left: 50%; /* 50% von der linken Seite */
+  top: 50%; /* 50% von der oberen Seite */
+  transform: translate(-50%, -50%); /* Zentrieren des Elements */
+}
+
+    </style>
+  </head>
+  <body>
+    <script type="module" src="/client/game/app.js"></script>
+    <canvas id="game"></canvas>
+
+  </body>
+</html>
